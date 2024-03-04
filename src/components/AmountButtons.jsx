@@ -35,3 +35,5 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
 `
+
+export default AmountButtons

@@ -33,3 +33,6 @@ const Wrapper = styled.footer`
     flex-direction: row;
   }
 `
+
+export default Footer
+

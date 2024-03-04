@@ -74,3 +74,5 @@ const Wrapper = styled.section`
     padding: 15rem 0;
   }
 `
+
+export default Contact

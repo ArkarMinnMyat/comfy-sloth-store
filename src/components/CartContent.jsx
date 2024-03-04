@@ -33,3 +33,5 @@ const Wrapper = styled.section`
     background: var(--clr-black);
   }
 `
+
+export default CartContent

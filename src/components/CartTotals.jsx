@@ -41,3 +41,5 @@ const Wrapper = styled.section`
     font-weight: 700;
   }
 `
+
+export default CartTotals

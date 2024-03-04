@@ -1,11 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'react-router-dom'
+import logo from '../assets/logo.svg'
+import {FaBars} from 'react-icons/fa'
 
 export const Navbar = () => {
   return (
     <>
         <NavContainer>
-            <h4>Navbar</h4>
+            <div className="nav-center">
+              <div className="nav-header">
+                <Link to='/'>
+                  <img src={logo} alt="comfy solth" />
+                </Link>
+                <button type='button' className='nav-toggle'>
+                  <FaBars />
+                </button>
+              </div>
+              <ul>
+                
+              </ul>
+            </div>
         </NavContainer>
     </>
   )
@@ -76,3 +91,5 @@ const NavContainer = styled.nav`
     }
   }
 `
+
+export default Navbar
